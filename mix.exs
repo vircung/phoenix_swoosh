@@ -32,8 +32,8 @@ defmodule PhoenixSwoosh.Mixfile do
 
   defp deps do
     [{:swoosh, "~> 0.1"},
-     {:phoenix, github: "phoenixframework/phoenix"},
-     {:phoenix_html, "~> 2.2"},
+     {:phoenix, "~> 1.3.0-rc", override: true},
+     {:phoenix_html, "~> 2.6"},
      {:credo, "~> 0.6", only: [:dev, :test]},
      {:ex_doc, "~> 0.14", only: :docs},
      {:inch_ex, ">= 0.0.0", only: :docs}]
